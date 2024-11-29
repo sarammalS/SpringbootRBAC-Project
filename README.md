@@ -48,33 +48,32 @@ OAuth 2.0 Integration:
 Consider adding OAuth 2.0 for social login or third-party integrations.
 # END POINTS:
 Authentication Endpoints
-User Login
+# User Login
 
 Endpoint: /api/auth/signin
 Method: POST
 Purpose: Authenticate the user and generate a JWT token.
-User Signup
-
+# User Signup
 Endpoint: /api/auth/signup
 Method: POST
 Purpose: Register a new user with roles.
 Secured Endpoints
-Public Access
+# Public Access
 
 Endpoint: /api/test/all
 Method: GET
 Purpose: Publicly accessible endpoint.
-User Access
+# User Access
 
 Endpoint: /api/test/user
 Method: GET
 Purpose: Secured endpoint for authenticated users with the ROLE_USER.
-Moderator Access
+# Moderator Access
 
 Endpoint: /api/test/mod
 Method: GET
 Purpose: Secured endpoint for authenticated users with the ROLE_MODERATOR.
-Admin Access
+# Admin Access
 
 Endpoint: /api/test/admin
 Method: GET
