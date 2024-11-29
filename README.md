@@ -51,6 +51,7 @@ Authentication Endpoints
 # User Login
 
 Endpoint: /api/auth/signin
+
 Method: POST
 Purpose: Authenticate the user and generate a JWT token.
 # User Signup
